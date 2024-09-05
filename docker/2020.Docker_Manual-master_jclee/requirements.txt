@@ -1,0 +1,10 @@
+numpy
+pandas
+scikit-learn
+scipy
+Pillow
+matplotlib
+opencv-python
+opencv-contrib-python
+tqdm
+wandb
