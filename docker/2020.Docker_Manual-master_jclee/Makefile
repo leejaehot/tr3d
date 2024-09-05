@@ -1,4 +1,3 @@
-
 IMAGE_TAG=latest
 
 PYTHON_VERSION=3.8
@@ -12,8 +11,6 @@ POS_GPUS=all
 ## 개인 컨테이너 이름 지정해주시길 바랍니다.
 USER_NAME:=$(shell whoami)
 
-
-
 ## CUDA TAG 지정
 ## cuda 11.1.1
 # 11.1.1-cudnn8-devel-ubuntu18.04
@@ -22,9 +19,7 @@ USER_NAME:=$(shell whoami)
 # CUDA_TAG=11.3.0-cudnn8-devel-ubuntu18.04
 CUDA_TAG=11.3.0-cudnn8-devel-ubuntu20.04
 
-
 PORT1=8815
-
 
 ## 베이스 이미지 이름 설정
 BASE_IMAGE_NAME=base
